@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS Responsive Grid</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css" />
+</head>
+
+<body>
+	<div class="header">
+		<h1>Title</h1>
+	</div>
+	
+	<div class="row">
+		<div class="col-3 col-s-3 menu">
+			<ul>
+				<li>List item 1</li>
+				<li>List item 2</li>
+			</ul>
+		</div>
+		
+		<!-- spans 6 columns for desktop, 9 for tablet -->
+		<div class="col-6 col-s-9">
+			<h2>Header</h2>
+			<img src="https://c.pxhere.com/photos/1c/d1/grass_meadow_green_forest_nature_grasses_blade_of_grass_flowers-1294575.jpg!d" />
+		</div>
+		
+		<!-- spans 3 columns for desktop, 12 for tablet -->
+		<div class="col-3 col-s-12"> 
+			<div class="aside">
+				<h2>Header</h2>
+				<p>Content</p>
+			</div>
+		</div>
+		
+	</div>
+    
+    <div class="footer">
+    	<p>Footer</p>
+    </div>
+</body>
+</html>
